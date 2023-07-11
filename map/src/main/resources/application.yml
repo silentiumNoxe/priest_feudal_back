@@ -1,0 +1,10 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://sanity:wordpass@localhost:27017/map?authSource=admin
+#      uuid-representation: standard
+  jackson:
+    date-format: 'dd-MM-yyyy'
+logging:
+  level:
+    org.springframework.data.mongodb.repository.MongoRepository: DEBUG

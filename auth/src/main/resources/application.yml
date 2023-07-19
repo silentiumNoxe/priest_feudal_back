@@ -1,0 +1,12 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://sanity:wordpass@localhost:27017/auth?authSource=admin
+  jackson:
+    date-format: 'dd-MM-yyyy'
+app:
+  security:
+    jwtSecret: "superSecretCode"
+    jwtExpiration: 300
+server:
+  port: 8081

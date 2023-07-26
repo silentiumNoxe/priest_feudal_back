@@ -2,7 +2,7 @@ spring:
   data:
     mongodb:
       uri: mongodb://sanity:wordpass@localhost:27017/map?authSource=admin
-#      uuid-representation: standard
+      uuid-representation: standard
   jackson:
     date-format: 'dd-MM-yyyy'
 logging:
